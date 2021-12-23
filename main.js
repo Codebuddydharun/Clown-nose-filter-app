@@ -1,6 +1,8 @@
 function take_snapshot(){
     save("clown-nose.jpg");
 }
+nosex=0;
+nosey=0;
 
 function setup(){
     canvas=createCanvas(300,300);
@@ -12,7 +14,7 @@ function setup(){
     posenet.on('pose',gotposes);   
 }
 function preload(){
-clownnose=loadImage("https://www.pngitem.com/pimgs/m/114-1147898_clown-nose-png-clip-art-clown-nose-transparent.png")
+clownnose=loadImage("https://i.postimg.cc/7ZBcjDqp/clownnose.png");
 }
 
 function draw(){
